@@ -1,4 +1,5 @@
 ActiveAdmin.register Company do
+  permit_params :name, :address, :postcode, :primary_email, :backup_email
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
